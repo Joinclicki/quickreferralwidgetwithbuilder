@@ -5,6 +5,7 @@ import { resolve } from 'path';
 export default defineConfig({
   plugins: [react()],
   build: {
+    outDir: 'dist',  // Output directory where the widget-bundle.js will be placed
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
