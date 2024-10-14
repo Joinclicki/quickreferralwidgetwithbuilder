@@ -46,7 +46,7 @@ const WidgetBuilder: React.FC = () => {
 <script>
   (function() {
     var script = document.createElement('script');
-    script.src = 'https://your-widget-url.com/widget.js';
+    script.src = 'https://quickreferralwidgetwithbuilder.vercel.app/widget.js';
     script.async = true;
     document.body.appendChild(script);
 
